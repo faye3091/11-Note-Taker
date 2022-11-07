@@ -11,13 +11,12 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
-    "uuid": "^8.3.2",
-    "v1": "^1.0.0"
+    "uuid": "^8.3.2"
   },
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/faye3091/11-Note-Taker.git"
+    "url": "https://github.com/faye3091/11-Note-Taker.git"
   },
   "keywords": [
     "notes"
