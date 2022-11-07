@@ -4,13 +4,26 @@
   "description": "Note taking Application",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Vanessa Villaluz",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "uuid": "^8.3.2",
     "v1": "^1.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faye3091/11-Note-Taker.git"
+  },
+  "keywords": [
+    "notes"
+  ],
+  "bugs": {
+    "url": "https://github.com/faye3091/11-Note-Taker/issues"
+  },
+  "homepage": "https://github.com/faye3091/11-Note-Taker#readme"
 }
