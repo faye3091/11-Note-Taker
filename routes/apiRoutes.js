@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const store = require("../public/assets/js/store");
+const store = require("../db/store");
 
 //requesting the existing notes
 router.get("/notes", (req, res) => {
