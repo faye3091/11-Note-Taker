@@ -29,7 +29,13 @@ class Store {
 
   getNotes() {
     return this.read().then((notes) => {
-      return JSON.parse(notes);
+      let parsedNotes;
+      try {
+        parsedNotes = [].concat(JSON.parse(notes));
+      } catch (err) {
+        parsedNotes = [];
+      }
+      return parsedNotes;
     });
   }
 
