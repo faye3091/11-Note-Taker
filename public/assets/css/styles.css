@@ -5,6 +5,14 @@ body {
   padding: 0;
 }
 
+.navbar {
+  background-color: rgb(200, 136, 200);
+}
+
+.jumbotron {
+  background-color: rgb(235, 206, 235);
+}
+
 .save-note {
   display: none;
 }
